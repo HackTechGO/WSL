@@ -11,7 +11,7 @@ Windows Subsystem for Linux (WSL)
 
 # Other Useful Resources:
 <ul>
-  <li><a href=""></a></li>    
+  <li><a href="https://ubuntu.com/tutorials">Linux tutorials</a></li>    
   <li><a href=""></a></li>
   <li><a href=""></a></li>
   <li><a href=""></a></li>
