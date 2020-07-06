@@ -109,5 +109,8 @@ sudo apt -y install python3-pip
 pip3 --version
 pip3 install jupyter
 ```
-Add to the end of the file and save/exit: ```alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"```  
-Update your bash profile: ```source ~/.bashrc```
+Add to the end of the file and save/exit:  
+```alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"```  
+
+Update your zshrc profile:  
+```source ~/.zshrc```
