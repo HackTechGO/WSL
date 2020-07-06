@@ -104,12 +104,9 @@ export PATH=$PATH:/mnt/c/Windows/System32
 
 - Python  
 ```
-sudo apt update
-sudo apt install python3-pip  
+sudo apt -y update
+sudo apt -y install python3-pip  
 pip3 --version
-```  
-- Jupyter
-```
 pip3 install jupyter
 ```
 Add to the end of the file and save/exit: ```alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"```  
