@@ -5,9 +5,7 @@
 - Installation: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 - Update and upgrade:  
 ```
-sudo apt update && sudo apt upgrade
-sudo apt dist-upgrade
-sudo apt autoremove
+sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -purge -y && sudo apt autoclean && sudo apt clean
 ```
 - In Ubuntu terminal, install Zsh (and curl and git):  
 ```
