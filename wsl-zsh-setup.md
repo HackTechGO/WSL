@@ -112,3 +112,12 @@ Add to the end of the file and save/exit:
 
 Update your zshrc profile:  
 ```source ~/.zshrc```
+
+- AWS cli mounting. Authentication will always happen in powershell. This step happens in your linux shell.
+
+```
+cp -f $(wslvar USERPROFILE)/.aws/credentials ~/.aws/credentials
+mount --bind $(wslvar USERPROFILE)/.aws/credentials ~/.aws/credentials
+```
+
+- Mac zsh setup: https://gist.github.com/tringn/a5a3ec9cec58bceadc196d46e292161b
